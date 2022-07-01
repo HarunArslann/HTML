@@ -1,0 +1,209 @@
+<ul>
+    <li>
+        <a href="https://kodluyoruz.org" target = "_blank">
+            Kodluyoruz Sayfasına Gider
+         </a>
+    </li>
+    <li>
+        <a href="iletisim.html">
+            İletişim Sayfasına Gider
+         </a>
+    </li>
+    <li>
+        <a href="#footer">
+            En Alt Kısma Gider
+        </a>
+    </li>
+    <li>
+        <a href="mailto:info@kodluyoruz.org">
+            Kodluyoruz'a Mail At
+        </a>
+    </li>
+    <li>
+        <a href="tel:05556661111">
+            Telefon Et
+        </a>
+    </li>
+</ul>
+
+
+
+<!--h1 adında bir başlık oluşturuldu-->
+<h1>Kodluyoruz - Front-End</h1>
+<!--
+    h1 başlığı burada sonlandırıldı.
+
+    Açıklama satırları
+    bu şekilde 
+    istediğimiz kadar satırda
+    oluşturulabilir
+-->
+
+<h2>HTML</h2>
+<h3>Açıklamalarla Çalışmak</h3>
+<p>
+    askdashdasşdjaidlajsdıafaşsd asd asfafa
+</p>
+<p>adasfıasjdaısdğpoklş12k31ğoplm asd maskdşmaiş</p>
+<p>asfasdasdas</p>    
+<p>fadaskdnaıopsdjasd</p> 
+
+<h3>Başlıklar v1e Paragraflarla Çalışmak</h3>
+<p>şlvmxckvğpxvkxvxv</p>
+<p>alsdmaskşldmaspdğajdapsda</p>
+<p>mkqwenmalsndş ıoasd aodnaj nda şlsdnaslkd</p>
+<h2>CSS</h2>
+<h2>Bootstrap</h2>
+
+
+<!-- 
+    Sıralı listeler -> 1,2,3,4....
+    Sırasız listeler -> *,*,*......
+    list item olması gerekiyor!!!
+ -->
+<h2>Listeler</h2>
+ <ol type = "A">
+    <li>Liste öğesi 1</li>
+    <li>Liste öğesi 2</li>
+    <li>Liste öğesi 3
+        <ol type = "I">
+            <li>Liste öğesi 3.1</li>
+            <li>Liste öğesi 3.2</li>
+            <li>Liste öğesi 3.3</li>
+            <li>Liste öğesi 3.4</li>
+            <li>Liste öğesi 3.5</li>
+
+        </ol>
+    </li>
+ </ol>
+
+ <!-- Emmet ile çalışmak 
+        - Etiket isimlerini direkt olarak verebiliyoruz.
+        - (+) işareti kardeş element
+        - (>) içinde öğre oluşturur
+        - (^) yukarı çıkar ve öğe oluşturur
+        - (*) istenilen sayı kadar öğe oluşturur
+        - lorem ???
+        - (.) class oluşturmak için kullanılır
+        - (#) id oluşturmak için kullanılır
+-->
+
+<!-- ul>li+li>ol>li*3 -->
+
+<ul>
+    <li></li>
+    <li>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </li>
+</ul>
+
+<!-- h1+p*3+h2*2+h1 aynı hatta oluşturmak 
+    istediğimiz elementler için toplama ve 
+    çarpma sembolleri kullanabilriz -->
+
+<h1></h1>
+<p></p>
+<p></p>
+<p></p>
+<h2></h2>
+<h2></h2>
+<h1></h1>
+
+<!-- ol>li*2 iç içe yapı oluşturmak 
+    istediğimizde > işareti kullanabiliriz-->
+
+<ol>
+    <li></li>
+    <li></li>
+</ol>
+
+<!-- ul>li*3^h1+p*3 hem iç içe hem de aynı 
+    hizada yapılar için ^ işaretini kullabiliriz.-->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<h1></h1>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- lorem -> anlamsız kelime eklemek 
+    istediğimizde kullanabiliriz. Tasarım
+    aşamasındayken içeriği pek düşünmek 
+    istemediğimizde işimize çok yarayacaktır. 
+    Yalnızca lorem yazarsak çok uzun yazı çağırırız.
+    lorem4->4 kelime getirir. -->
+
+<ul>
+    <li>Lorem, ipsum dolor.</li>
+    <li>At, fugit ea?</li>
+    <li>Dolorem, tenetur eveniet.</li>
+</ul>
+
+<!-- ul>li*3>lorem1^^p*3>lorem5^h1>lorem3^h2>lorem2 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Ullam!</li>
+    <li>Sint?</li>
+</ul>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Odio, distinctio vitae. Natus, iste.</p>
+<p>Vero deleniti quis nulla incidunt!</p>
+<h1>Lorem, ipsum dolor.</h1>
+<h2>Lorem, ipsum.</h2>
+
+<!-- class eklemek istediğimizde . kullanırız -->
+
+<h1 class="deneme"></h1>    <!-- h1.deneme -->
+
+<h1 class="deneme">Lorem, ipsum dolor.</h1> <!-- h1.deneme>lorem3 -->
+
+<!-- id eklemek istediğimizde # kullanırız -->
+
+<h1 id="idolustur"></h1>    <!-- h1#idolustur -->
+
+<h1 class="deneme" id="idolustur">Lorem, ipsum dolor.</h1>  <!-- h1.deneme#idolustur>lorem3 -->
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+</ul>
+
+<!-- Görsellerle Çalışmak  
+<img src="" alt=""> şeklinde bir yapısı vardır.
+src -> görselin kaynak adresini temsil eder.
+alt -> kaynak dışında alternatif bilgiler eklemek istersek kullabiliriz.
+-->
+<img src="images/1.jpg" border = "3" alt="Çalışma Masası">
+<img src="https://picsum.photos/200/300" alt="">
+<img src="https://assets.ubuntu.com/v1/6a0d7382-UbuntuCoreLogoWhite.svg" alt="">
+
+<!-- 
+    - Başka bir websitesine gitmek
+    - Başka bir sayfaya gitmek
+    - Aynı sayfada bir yere gitmek
+    - mail at
+    - telefon et
+ -->
+<br>
+
+
+<br>
+
+ 
+
+ <h1 id = "footer">En Alt Kısım</h1>
+
+ <p>Lorem ipsum dolor sit amet.</p>
+ 
+
+
